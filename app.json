@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://BABYTUNE7654:<BABYTUNE7654>@cluster0.i7r8ucr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "value": "mongodb+srv://dabangdabang296:gunjan8651@cluster0.j49zebj.mongodb.net/",
         "required": true
       },
       "OWNER_ID": {
