@@ -14,19 +14,21 @@ API_HASH = getenv("API_HASH", "")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@II_APNA_GUNJAN_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@UTTAM470")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "@baby_x_music_boy")
+BOT_USERNAME = getenv("BOT_USERNAME" , "BABY_MUSIC09_BOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
+
+API_KEY = "abc921ff654bcf7b3faff8f775d781d8d27d32bfd02d6692eea30249ba781c8b"  # अपना API key यहाँ डालें
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,13 +37,14 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002293866599"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002043570167"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7748155004"))
+OWNER_ID = int(getenv("OWNER_ID", "7131351568"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
-
+# config.py
+OPENAI_API_KEY = 'sk-svcacct-P6WzUuDoe32FfmEZAPYHvXxym4gRpzFDJj8R3LTWvZ1bPQaDLNr0cP9bWinT3BlbkFJf2zLaAxMRLSfocVQkLP0ksWaJPVl4SwHwCEFT_mvnbIujjvt0_cqmjh7gCwA'
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -53,7 +56,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gunjan650/MASTIMUSIC",
+    "https://github.com/BABY-MUSIC/SPOTIFY_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,10 +70,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+YOIkTivyXMgxNzFl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+YOIkTivyXMgxNzFl")
-SOURCE = getenv("SOURCE", "https://github.com/Gunjan650/MASTIMUSIC")
-CHAT = getenv("CHAT", "https://t.me/+YOIkTivyXMgxNzFl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABY09_WORLD")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+OL6jdTL7JAJjYzVl")
+SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/BABYXMUSIC")
+CHAT = getenv("CHAT", "https://t.me/chattinghuboo")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -137,10 +140,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/0e04lr.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/xhpqtp.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/0e04lr.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/fd827f9a4fe8eaa3e8bf4.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
