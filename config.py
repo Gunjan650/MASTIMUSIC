@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002043570167"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002293966599"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7131351568"))
+OWNER_ID = int(getenv("OWNER_ID", "7748155004"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -70,10 +70,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABY09_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+OL6jdTL7JAJjYzVl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+YOIkTivyXMgxNzFl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+YOIkTivyXMgxNzFl")
 SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/BABYXMUSIC")
-CHAT = getenv("CHAT", "https://t.me/chattinghuboo")
+CHAT = getenv("CHAT", "https://t.me/+YOIkTivyXMgxNzFl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
