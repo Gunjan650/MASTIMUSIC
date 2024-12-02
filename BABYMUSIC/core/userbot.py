@@ -23,8 +23,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("https://t.me/+OL6jdTL7JAJjYzVl")
-                await self.one.join_chat("BABY09_WORLD")
+                await self.one.join_chat("https://t.me/II_apna_gunjan_II")
+                await self.one.join_chat("II_apna_gunjan_II")
             except:
                 pass
             assistants.append(1)
@@ -47,13 +47,5 @@ class Userbot(Client):
         try:
             if config.STRING1:
                 await self.one.stop()
-            if config.STRING2:
-                await self.two.stop()
-            if config.STRING3:
-                await self.three.stop()
-            if config.STRING4:
-                await self.four.stop()
-            if config.STRING5:
-                await self.five.stop()
         except:
             pass
